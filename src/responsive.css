@@ -99,6 +99,10 @@
     html{
         overflow-x: hidden;
     }
+    .active{
+    background-color: orange !important;
+    color: black !important;
+}
     .title{
         display: flex;
         justify-content: center;
