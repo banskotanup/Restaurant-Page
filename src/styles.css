@@ -59,6 +59,9 @@ body::before{
     opacity: 0.4;
     pointer-events: none;
 }
+main{
+    flex: 1;
+}
 
 header{
     top: 0;
@@ -134,7 +137,6 @@ nav button:hover{
     background-color: rgba(0, 0, 0, 0.5);
     width: 100vw;
     height: 100%;
-    flex: 1;
 }
 
 .slogan{
