@@ -1,4 +1,13 @@
 import { createCard, heading } from "./card.js";
+import one from "./images/menu/1.png";
+import two from "./images/menu/2.png";
+import three from "./images/menu/3.png";
+import four from "./images/menu/4.png";
+import five from "./images/menu/5.png";
+import six from "./images/menu/6.png";
+import seven from "./images/menu/7.png";
+import eight from "./images/menu/8.png";
+
 
 
 export const cards = (() => {
@@ -12,8 +21,8 @@ export const cards = (() => {
     cards.classList.add("cards");
     cardBody.appendChild(cards);    
 
-    const card = createCard("./images/menu/1.png", "Garlic Butter Shrimp", "Juicy shrimp cooked in garlic butter sauce.", 840);
-    const card1 = createCard("./images/menu/2.png", "Crispy Calamari", "Lightly fried squid served with marinara sauce.", 920);
+    const card = createCard(one, "Garlic Butter Shrimp", "Juicy shrimp cooked in garlic butter sauce.", 840);
+    const card1 = createCard(two, "Crispy Calamari", "Lightly fried squid served with marinara sauce.", 920);
     
     cards.appendChild(card);
     cards.appendChild(card1);
@@ -25,8 +34,8 @@ export const cards = (() => {
     cards2.classList.add("cards");
     cardBody.appendChild(cards2);  
 
-    const card2 = createCard("./images/menu/3.png", "Grilled Salmon", "Fresh salmon fillet served with seasonal vegetables.", 1500);
-    const card3 = createCard("./images/menu/4.png", "Classic Beef Burger", "Juicy beef patty with cheese, lettuce, and special sauce.", 1099);
+    const card2 = createCard(three, "Grilled Salmon", "Fresh salmon fillet served with seasonal vegetables.", 1500);
+    const card3 = createCard(four, "Classic Beef Burger", "Juicy beef patty with cheese, lettuce, and special sauce.", 1099);
 
     cards2.appendChild(card2);
     cards2.appendChild(card3);
@@ -38,8 +47,8 @@ export const cards = (() => {
     cards3.classList.add("cards");
     cardBody.appendChild(cards3);  
 
-    const card4 = createCard("./images/menu/5.png", "Chocolate Lava Cake", "Warm chocolate cake with molten center.", 720);
-    const card5 = createCard("./images/menu/6.png", "Cheesecake Delight", "Classic creamy cheesecake with berry topping.", 610);
+    const card4 = createCard(five, "Chocolate Lava Cake", "Warm chocolate cake with molten center.", 720);
+    const card5 = createCard(six, "Cheesecake Delight", "Classic creamy cheesecake with berry topping.", 610);
 
     cards3.appendChild(card4);
     cards3.appendChild(card5);
@@ -51,8 +60,8 @@ export const cards = (() => {
     cards4.classList.add("cards");
     cardBody.appendChild(cards4);  
 
-    const card6 = createCard("./images/menu/7.png", "Fresh Lemonade", "Refreshing homemade lemonade.", 399);
-    const card7 = createCard("./images/menu/8.png", "Iced Coffee", "Chilled coffee with milk and sweetener.", 470);
+    const card6 = createCard(seven, "Fresh Lemonade", "Refreshing homemade lemonade.", 399);
+    const card7 = createCard(eight, "Iced Coffee", "Chilled coffee with milk and sweetener.", 470);
 
     cards4.appendChild(card6);
     cards4.appendChild(card7);

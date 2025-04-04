@@ -32,6 +32,9 @@ module.exports = {
             {
                 test: /\.(png|jpeg|jpg|gif)$/i,
                 type: "asset/resource",
+                generator: {
+                    filename: 'images/[name][ext]', // makes images go to dist/images/
+                },
             },
         ],
     },

@@ -1,6 +1,6 @@
-
+import introImage from "./images/right-logo.png";
+import bodyImage from "./images/feature.png";
 export const clsSlogan = (() => {
-
     const slogan = document.createElement("section");
     slogan.classList.add("slogan");
 
@@ -20,7 +20,7 @@ export const clsSlogan = (() => {
     const introRight = document.createElement("div");
     introRight.classList.add("intro-right");
     const introImg = document.createElement("img");
-    introImg.src = "./images/right-logo.png";
+    introImg.src = introImage;
 
 
     ctBtn.appendChild(viewBtn);
@@ -46,7 +46,7 @@ export const clsFeature = (() => {
     leftBody.setAttribute("data-aos-duration", "1500");
 
     const bodyImg = document.createElement("img");
-    bodyImg.src = "./images/feature.png";
+    bodyImg.src = bodyImage;
 
     leftBody.appendChild(bodyImg);
     features.appendChild(leftBody);

@@ -1,3 +1,6 @@
+import chefPic from "./images/about/chef.png";
+import bodyPic from "./images/about/1.jpg";
+
 export const aboutPage = (() => {
     const heading = document.createElement("div");
     heading.classList.add("heading");
@@ -13,7 +16,7 @@ export const aboutPage = (() => {
     bodyHead.appendChild(body);
 
     const imgBody = document.createElement("img");
-    imgBody.src = "./images/about/1.jpg";
+    imgBody.src = bodyPic;
     imgBody.setAttribute("data-aos", "zoom-in");
     imgBody.setAttribute("data-aos-duration", "1500");
     bodyHead.appendChild(imgBody);
@@ -27,7 +30,7 @@ export const aboutPage = (() => {
     chefDivImg.classList.add("chef-div-image");
 
     const chefImg = document.createElement("img");
-    chefImg.src = "./images/about/chef.png";
+    chefImg.src = chefPic;
     chefImg.setAttribute("data-aos", "zoom-in");
     chefImg.setAttribute("data-aos-duration", "1500");
     chefDivImg.appendChild(chefImg);
