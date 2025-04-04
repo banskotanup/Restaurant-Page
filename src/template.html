@@ -3,19 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../public/images/logo.jpg" type="image/x-icon">
-    <title>Restaurant Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+10&family=Jersey+15&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="../public/images/logo.png" type="image/x-icon">
+    <title>Odin Restaurant</title>
 </head>
 <body>
     <header>
+        <section class="header">
+            <div class="title">
+                <img src="../public/images/logo.png" alt="">
+            <p>The Odin Restaurant</p>
+            </div>
+        </section>
+    </header>
+    <div id="content">
         <nav>
             <button type="button">Home</button>
             <button type="button">Menu</button>
             <button type="button">About</button>
         </nav>
-    </header>
-    <div id="content">
-
+        <section class="slogan">
+            <div class="intro-left">
+                <h1>"Authentic flavors, <span>unforgettable memories</span>"</h1>
+                <p>A fresh approach to dining, designed for your convenience.</p>
+                <div class="ct-btn">
+                    <button type="button">View menu</button>
+                </div>
+            </div>
+            <div class="intro-right">
+                <img src="../public/images/right-logo.png" alt="">
+            </div>
+        </section>
+        <section class="features">
+            <div class="left-body" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="../public/images/feature.png" alt="">
+            </div>
+            <div class="right-body" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in">
+                <h2>Features</h2>
+                <h3>🍕 Deliciously Fresh</h3>
+                <p>We use hand-picked ingredients and prepare every dish with love and care.</p>
+                <h3>🎶 Cozy Atmosphere</h3>
+                <p>A warm, welcoming vibe perfect for date nights, family dinners, or solo getaways.</p>
+                <h3>🛵 Fast Delivery</h3>
+                <p>Get your favorites delivered to your door—hot, fresh, and right on time.</p>
+            </div>
+        </section>
+        <section class="explore" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in">
+            <h4>Ready to taste the difference?</h4>
+            <p>Explore our menu or book your table now.</p>
+            <div class="cta">
+                <button type="button">Order Online</button>
+                <button type="button">Book a Table</button>
+            </div>
+        </section>
     </div>
+    <footer>
+        <p>Anup Banskota © <script>document.write(new Date().getFullYear())</script></p>
+    </footer>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
