@@ -108,7 +108,8 @@
 
     .title p{
         text-align: start;
-        font-size: 1.5em;
+        font-size: 1.2em;
+        transform: translateX(-20px);
     }
 
     .slogan{
