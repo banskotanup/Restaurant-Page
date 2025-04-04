@@ -13,6 +13,8 @@ export const clsSlogan = (() => {
     const ctBtn = document.createElement("div");
     ctBtn.classList.add("ct-btn");
     const viewBtn = document.createElement("button");
+    viewBtn.classList.add("view-menu");
+    viewBtn.type = "button";
     viewBtn.textContent = "View menu";
 
     const introRight = document.createElement("div");
@@ -97,21 +99,9 @@ export const clsExplore = (() => {
     const p = document.createElement("p");
     p.textContent = "Explore our menu or book your table now.";
 
-    const cta = document.createElement("div");
-    cta.classList.add("cta");
-
-    const orderBtn = document.createElement("button");
-    orderBtn.textContent = "Order online";
-
-    const bookBtn = document.createElement("button");
-    bookBtn.textContent = "Book a table";
-
-    cta.appendChild(orderBtn);
-    cta.appendChild(bookBtn);
 
     explore.appendChild(h4);
     explore.appendChild(p);
-    explore.appendChild(cta);
 
     return explore;
 })();

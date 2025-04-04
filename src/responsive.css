@@ -30,6 +30,68 @@
     .explore{
         transform: translateY(-70px);
     }
+
+    .cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card{
+        flex-direction: column;
+        width: 100%;
+        transform: translateX(-20px);
+    }
+
+    .card img{
+        height: 250px;
+        width: 300px;
+    }
+
+    .card:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        transform: scale(1);
+    }
+
+    .card-desc{
+        text-align: start;
+    }
+
+    .body-head{
+        grid-template-columns:  repeat(1, 1fr);
+        transform: translateX(1px);
+    }
+
+    .chef{
+        display: flex;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column-reverse;
+    }
+
+    .about-body{
+        font-size: 1.2em;
+        text-align: justify;
+        transform: translateX(-50px);
+        margin-left: 0;
+        margin-right: 0;
+        margin: 20px;
+    }
+
+    .body-head img{
+        height: 400px;
+        width: 98%;
+        margin-top: 20px;
+    }
+
+    .chef p{
+        margin-right: 0;
+        margin-left: 0;
+        transform: translateY(20px);
+        margin: 20px;
+        transform: translateX(-10px);
+    }
+
+    .chef-div-image{
+        transform: translateX(10px);
+    }
 }
 
 @media (max-width: 669px){
@@ -66,5 +128,67 @@
 
     .explore{
         transform: translateY(-70px);
+    }
+
+    .cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card{
+        flex-direction: column;
+        width: 100%;
+        transform: translateX(-20px);
+    }
+
+    .card img{
+        height: 250px;
+        width: 300px;
+    }
+
+    .card:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        transform: scale(1);
+    }
+
+    .card-desc{
+        text-align: start;
+    }
+
+    .body-head{
+        grid-template-columns:  repeat(1, 1fr);
+        transform: translateX(1px);
+    }
+
+    .chef{
+        display: flex;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column-reverse;
+    }
+
+    .about-body{
+        font-size: 1.2em;
+        text-align: justify;
+        transform: translateX(-50px);
+        margin-left: 0;
+        margin-right: 0;
+        margin: 20px;
+    }
+
+    .body-head img{
+        height: 400px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .chef p{
+        margin-right: 0;
+        margin-left: 0;
+        transform: translateY(20px);
+        margin: 20px;
+        transform: translateX(-10px);
+    }
+
+    .chef-div-image{
+        transform: translateX(10px);
     }
 }
